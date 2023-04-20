@@ -3,7 +3,7 @@
 ## Como melhorar a semântica e acessibilidade de suas páginas usando 4 tags HTML
 
 ```javascript
-1º - <details> e summary>
+1º - <details> e <summary>
 ```
 
 ```javascript
