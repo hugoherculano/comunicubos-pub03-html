@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Hugo Herculano">
+  <title>comuniCubos - Como melhorar a semântica e acessibilidade de suas páginas usando 4 tags HTML</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Exemplo 1 -->
+  <details>
+    <summary>Veja mais informações</summary>
+    <p>Aqui estão mais detalhes sobre nosso produto:</p>
+    <ul>
+      <li>Benefício 1</li>
+      <li>Benefício 2</li>
+      <li>Benefício 3</li>
+    </ul>
+  </details>
+
+
+  <!-- Exemplo 2 -->
+  <p>Este artigo foi publicado em <time title="20 de Abril" datetime="2023-04-20">20 de abril de 2023</time>.</p>
+
+
+  <!-- Exemplo 3 -->
+  <picture>
+    <source
+      media="(max-width: 400px)"
+      srcset="https://vagas.byintera.com/wp-content/uploads/2020/10/Cubos-Academy-Previa-Preview-02.png"
+    >
+    <source
+      media="(max-width: 800px)"
+      srcset="https://i.ytimg.com/vi/SmaGHMirVGc/maxresdefault.jpg"
+    >
+    <img
+      src="https://guiadeti.com.br/wp-content/uploads/2022/01/site-cubos.png"
+      alt="Descrição da imagem"
+    >
+  </picture>
+
+
+  <!-- Exemplo 4 -->
+  <form>
+    <fieldset>
+      <legend>Informações pessoais</legend>
+      <label for="nome">Nome:</label>
+      <input type="text" id="nome" name="nome"><br>
+      <label for="email">E-mail:</label>
+      <input type="email" id="email" name="email"><br>
+      <label for="telefone">Telefone:</label>
+      <input type="tel" id="telefone" name="telefone">
+    </fieldset>
+  </form>
+
+
+</body>
+</html>
