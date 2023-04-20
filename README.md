@@ -1,4 +1,4 @@
-# Exemplos para o conteúdo publicado na comuniCubos🤘🏻✅
+# Exemplos para o conteúdo publicado na comuniCubos🤘🏻
 
 ## Como melhorar a semântica e acessibilidade de suas páginas usando 4 tags HTML
 
